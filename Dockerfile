@@ -13,7 +13,7 @@ ENV JUPYTER_DATA_DIR=$PYTHONUSERBASE
 
 # Install pip requirements
 
-RUN python -m pip install -r requirements
+RUN python -m pip install -r requirements.txt
 RUN python -m pip install jupyter
 
 # Now, we copy the necessary files:
