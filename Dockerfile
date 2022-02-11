@@ -12,7 +12,7 @@ ENV JUPYTER_RUNTIME_DIR='/tmp/'
 ENV JUPYTER_DATA_DIR=$PYTHONUSERBASE
 
 # Install pip requirements
-
+COPY requirements.txt .
 RUN python -m pip install -r requirements.txt
 RUN python -m pip install jupyter
 
