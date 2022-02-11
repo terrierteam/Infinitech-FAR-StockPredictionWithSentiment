@@ -1,6 +1,6 @@
 apiVersion: v2
-name: infinitech-far-fe
-description: Helm Chart for hosting the Infinitech Financial Asset Recommender using Profitability Estimation
+name: infinitech-far-fe-s
+description: Helm Chart for hosting the Infinitech Financial Asset Recommender using Profitability Estimation with Sentiment Analysis
 
 # A chart can be either an 'application' or a 'library' chart.
 #
